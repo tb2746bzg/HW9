@@ -14,4 +14,4 @@ with open('inspiration.txt') as fp:
 def random_quote():
     i = randint(0,n-1)
     quote = l[i]
-    return render_template('inspiration.html',quote)
+    return render_template('inspiration.html',quote=quote)
